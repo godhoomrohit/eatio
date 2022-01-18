@@ -2904,7 +2904,9 @@
 
 	<script src="https://learn.dataforensics.io/embed/v1/2726fdb864686a7db2244cef1697310df55bf9c17e1dd0870224ecc2"></script>
 	<script>
-		dataForensics.init({})	
+		dataForensics.init({
+			email: "falana@dhimkana.com"
+		})	
 	</script>
 	<script>
 		(function(apiKey){
@@ -2917,6 +2919,9 @@
 				// Call this whenever information about your visitors becomes available
 				// Please use Strings, Numbers, or Bools for value types.
 				pendo.initialize({
+					visitor: {
+                id: "falana@dhimkana.com"   // Required if user is logged in
+            },
 				});
 		})('0463d556-4bbe-4e86-6750-1608a0a8edaf');
 		</script>
